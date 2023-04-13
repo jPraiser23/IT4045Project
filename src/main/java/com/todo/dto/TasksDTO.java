@@ -2,16 +2,16 @@ package com.todo.dto;
 
 public class TasksDTO {
 	
-	private int taskId;
+	private int tasksId;
 	private String title;
 	private String description;
 	private int statusId;
 
-	public int getTaskId() {
-		return taskId;
+	public int getTasksId() {
+		return tasksId;
 	}
-	public void setTaskId(int taskId) {
-		this.taskId = taskId;
+	public void setTasksId(int tasksId) {
+		this.tasksId = tasksId;
 	}
 	public String getTitle() {
 		return title;
@@ -34,6 +34,6 @@ public class TasksDTO {
 	
 	@Override
 	public String toString() {
-		return taskId + " " + title + " " + description + " " + statusId + " ";
+		return tasksId + " " + title + " " + description + " " + statusId + " ";
 	}
 }
