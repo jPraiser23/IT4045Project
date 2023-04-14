@@ -13,8 +13,8 @@ public class TasksServiceStub implements ITasksService {
 		TasksDTO tasksDTO = new TasksDTO();
 		tasksDTO.setTasksId(1);
 		tasksDTO.setTitle("Take out trash");
-		tasksDTO.setDescription("");
-		tasksDTO.setStatusId(id);
+		tasksDTO.setDescription("Put trash out Sunday night");
+		tasksDTO.setStatusId(1);
 		return tasksDTO;	
 	}
 	
